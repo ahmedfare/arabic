@@ -258,3 +258,10 @@ width: 95px;
           footer p{
             font-size: 30px;
           }
+ .to-up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+ }
+
