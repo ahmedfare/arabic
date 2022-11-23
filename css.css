@@ -276,3 +276,11 @@ color: white;
   display: flex;
   flex-direction: row;
 }
+@media (max-width:1186px){
+ .section2{
+ flex-direction: column; 
+ } 
+ .section2 p {
+  margin-top: 20px;
+ }
+}
