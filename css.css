@@ -308,3 +308,20 @@ color: white !important;
     align-items: center;
     text-align: right;
   }
+.nav-bar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  
+}
+
+.head2{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
