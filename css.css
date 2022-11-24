@@ -266,8 +266,8 @@ width: 95px;
     opacity: 1;
  }
 .addtheme{
- background-color: #292929;
-color: white;
+ background-color: #292929 !important;
+color: white !important;
 }
 #theme{
   cursor: pointer;
@@ -284,3 +284,23 @@ color: white;
   margin-top: 20px;
  }
 }
+ .head2{
+    display: none;
+  }
+  @media (max-width:800px) {
+    .nav-bar{
+      display: none;
+    }
+    .head2{
+      display: inline;
+    }
+  }
+  .nav-link:hover{
+      color: #9b159b !important;
+  }
+  .nav-link{
+    color: #58A7B6 !important;
+  }
+  .container-fluid{
+    background-color: #f0f0f0 !important;
+  }
