@@ -327,9 +327,13 @@ color: white !important;
 .to-up{
   z-index: 999;
   opacity: 0.8;
- 
+ transition: 0.4s;
+
 }
 
 .darkcolortoup{
   filter: invert(100%) sepia(35%) saturate(183%) hue-rotate(296deg) brightness(110%) contrast(107%);
+}
+.to-up:hover{
+  filter: invert(20%) sepia(7%) saturate(10%) hue-rotate(315deg) brightness(96%) contrast(98%); 
 }
