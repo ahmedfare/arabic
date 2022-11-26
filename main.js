@@ -16,6 +16,8 @@ section4.classList.toggle("addtheme")
 section5.classList.toggle("addtheme")
 head.classList.toggle("addtheme")
 toup.classList.toggle("darkcolortoup")
+  ar.classList.toggle("darkcolortoup")
+
 
  })
  theme1.addEventListener("click" , (eo) => {
