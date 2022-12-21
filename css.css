@@ -342,3 +342,14 @@ color: white !important;
   flex-direction: row;
   line-height: 60px;
 }
+.new-add::after{
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: .18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color:#58A7B6;
+  margin-top: 40px;
+}
