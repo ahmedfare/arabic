@@ -353,3 +353,48 @@ color: white !important;
   background-color:#58A7B6;
   margin-top: 40px;
 }
+.hovereff{
+  color: white;
+  font-size: 2.3rem;
+  position: relative; 
+}
+.hovereff::after{
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 2px;
+   background-color:#9b159b;
+   left: 50%;
+   bottom: -10px;
+   transition: all 0.3s ease-in-out;
+}
+.hovereff:hover{
+cursor: pointer;
+}
+.hovereff:hover::after{
+   cursor: pointer;
+   width: 100%;
+   left: 0;
+}
+.lang{
+  
+  position: relative; 
+}
+.lang::after{
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 2px;
+   background-color:#9b159b;
+   left: 50%;
+   bottom: 10px;
+   transition: all 0.3s ease-in-out;
+}
+.lang:hover{
+cursor: pointer;
+}
+.lang:hover::after{
+   cursor: pointer;
+   width: 100%;
+   left: 0;
+}
